@@ -1,0 +1,24 @@
+/*!
+ * Custom Bootstrap, based on Twitter Bootstrap
+ * This styleguide imports all scss files from original bootstrap
+ * and overrides only those that are modified with new custom files
+ */
+
+// Main Scss
+
+//Bootstrap
+
+// And this
+
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$bootstrap-sass-asset-helper: true;
+
+@import './bootswatch/_variables.scss';
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+@import './bootswatch/_bootswatch.scss';
+@import '../../node_modules/aos/dist/aos.css';
+
+
+body {
+    background-image: url('../images/header-bg.png');
+}
